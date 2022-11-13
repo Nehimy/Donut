@@ -1,0 +1,316 @@
+:root {
+    --DarkGray: #4c4c4c;
+    --Pink:#f865b8;
+}
+
+body{
+    background: var(--DarkGray);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    /*background: #f27fb8;*/
+    height: 100vh;
+    width: 100vw;
+    justify-items: center;
+    align-items: center;
+}
+
+.test{
+    background: white;
+    width: 35px;
+    height: 20px;
+}
+
+.size{
+    height: 50vw;
+    width: 50vw;
+}
+
+.position-grid{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.container-sprinkles{
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-donut{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    /*background: yellow;*/
+    justify-items: center;
+    align-items: center;
+}
+
+.donut{
+    display: grid;
+    background: #FDAF6A;
+    clip-path: circle(50% at 50% 50%);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.glazed{
+    background: var(--Pink);
+    margin: 15px 0px 0px 0px;
+}
+
+.circle{
+    display: grid;
+    background:var(--DarkGray);
+    height: 20vw;
+    width: 20vw;
+    grid-row: 2;
+    grid-column: 2;
+    clip-path: circle(50% at 50% 50%);
+}
+
+/*Test*/
+.size-glazed{
+    height: 40vw;
+    width: 40vw;
+    background: var(--Pink);
+}
+
+.glazed-1{
+    display: grid;
+    margin: 15px 0px 0px 0px;
+    border-radius: 30%;
+    transform: rotate(45deg);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.glazed-2{
+    transform: rotate(90deg);
+}
+
+.sprinkle{
+    height: 15px;
+    width: 40px;
+    background: #58f9f3;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.sprinkles01{
+    grid-row: 2;
+    grid-column: 5;
+}
+
+.sprinkles02{
+    grid-row: 2;
+    grid-column: 6;
+}
+
+.sprinkles03{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.sprinkles04{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+.sprinkles05{
+    grid-row: 3;
+    grid-column: 5;
+}
+
+.sprinkles06{
+    grid-row: 3;
+    grid-column: 6;
+}
+
+.sprinkles07{
+    grid-row: 3;
+    grid-column: 7;
+}
+
+.sprinkles08{
+    grid-row: 3;
+    grid-column: 8;
+}
+
+.sprinkles09{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.sprinkles10{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.sprinkles11{
+    grid-row: 4;
+    grid-column: 4;
+}
+
+.sprinkles12{
+    grid-row: 4;
+    grid-column: 9;
+}
+
+.sprinkles13{
+    grid-row: 4;
+    grid-column: 8;
+}
+
+.sprinkles14{
+    grid-row: 4;
+    grid-column: 7;
+}
+
+.sprinkles15{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.sprinkles16{
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.sprinkles17{
+    grid-row: 5;
+    grid-column: 8;
+}
+
+.sprinkles18{
+    grid-row: 5;
+    grid-column: 9;
+}
+
+.sprinkles19{
+    grid-row: 6;
+    grid-column: 2;
+}
+
+.sprinkles20{
+    grid-row: 6;
+    grid-column: 3;
+}
+
+.sprinkles21{
+    grid-row: 6;
+    grid-column: 8;
+}
+
+.sprinkles22{
+    grid-row: 6;
+    grid-column: 9;
+}
+
+.sprinkles23{
+    grid-row: 7;
+    grid-column: 2;
+}
+
+.sprinkles24{
+    grid-row: 7;
+    grid-column: 3;
+}
+
+.sprinkles25{
+    grid-row: 7;
+    grid-column: 8;
+
+}
+
+.sprinkles26{
+    grid-row: 7;
+    grid-column: 9;
+}
+
+.sprinkles27{
+    grid-row: 8;
+    grid-column: 2;
+
+}
+
+.sprinkles28{
+    grid-row: 8;
+    grid-column: 3;
+}
+
+.sprinkles29{
+    grid-row: 8;
+    grid-column: 4;
+}
+
+.sprinkles30{
+    grid-row: 8;
+    grid-column: 5;
+}
+
+.sprinkles31{
+    grid-row: 8;
+    grid-column: 6;
+}
+
+.sprinkles32{
+    grid-row: 8;
+    grid-column: 7;
+}
+
+.sprinkles33{
+    grid-row: 8;
+    grid-column: 8;
+}
+
+.sprinkles34{
+    grid-row: 8;
+    grid-column: 9;
+}
+
+.sprinkles35{
+    grid-row: 9;
+    grid-column: 3;
+}
+
+.sprinkles36{
+    grid-row: 9;
+    grid-column: 4;
+}
+
+.sprinkles37{
+    grid-row: 9;
+    grid-column: 5;
+}
+
+.sprinkles38{
+    grid-row: 9;
+    grid-column: 6;
+}
+
+.sprinkles39{
+    grid-row: 9;
+    grid-column: 7;
+}
+
+.sprinkles40{
+    grid-row: 9;
+    grid-column: 8;
+}
+
+.sprinkles41{
+    grid-row: 10;
+    grid-column: 5;
+}
+
+.sprinkles42{
+    grid-row: 10;
+    grid-column: 6;
+}

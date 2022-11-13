@@ -1,0 +1,15 @@
+* Cosas por arreglar
+- El donut no tine que verce estirado en una pantalla grande
+- Si la pantalla es pequeña el circulo tiene que ser pequeño
+- Center Donut
+
+** Nota:
+*** JavelDev: Justify-items: es horizontal. Align-items: es vertical
+* ¿Qué falta?
+- Que los sprinkles obtengan un ángulo cada que cargue la página.
+- Definir un color para los sprinkles.
+- Cambiar el color de el glaseado con un switch.
+ switch.
+
+* Imagenes
+![Donut CSS](https://i.imgur.com/kiCdgZo.png)

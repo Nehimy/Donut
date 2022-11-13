@@ -1,0 +1,5 @@
+# ignora los archivos
+*.org
+
+# pero no este, aun cuando había ignorado los archivos terminados en .org en la línea anterior
+!readme.org
