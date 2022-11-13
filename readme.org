@@ -9,7 +9,6 @@
 - Que los sprinkles obtengan un ángulo cada que cargue la página.
 - Definir un color para los sprinkles.
 - Cambiar el color de el glaseado con un switch.
- switch.
 
 * Imagenes
-![Donut CSS](https://i.imgur.com/kiCdgZo.png)
+[[https://i.imgur.com/kiCdgZo.png]]
