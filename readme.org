@@ -7,7 +7,9 @@
 *** JavelDev: Justify-items: es horizontal. Align-items: es vertical
 * ¿Qué falta?
 - Que los sprinkles obtengan un ángulo cada que cargue la página.
+  - Recorrer los sprinkles.
 - Definir un color para los sprinkles.
+   - Arreglo de colores.
 - Cambiar el color de el glaseado con un switch.
 
 * Imagenes

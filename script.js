@@ -1,12 +1,9 @@
-let a= Math.floor(Math.random()*360);
-console.log(a)
-console.log("Hello world!")
+// 2. Obtener elementos
+// 3. Colocar un ángulo random a cada elemento
 
 
+// 2
 
-setTimeout(function(){
-  //document.querySelector('.test').s
-  document.querySelector('.test').innerHTML = a;
-  document.querySelector('.sprinkle').style.transform= "rotate(45deg)";
-  //document.querySelector('.sprinkle').style.display='none';
-},1000);
+
+const elements = document.querySelectorAll("div.sprinkle")
+// remember recorrer elementos.
