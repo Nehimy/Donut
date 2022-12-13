@@ -5,13 +5,25 @@
 
 let text="";
 let n;
+let color="";
+colors= ["--Pink", "--Blue", "--white", "--yellow", "--green", "--lila", "--turquoise", "--orange","--lila2", "--green2"];
+
+
+
+//console.log(colors[Math.floor(Math.random()*10)]);
+
 const elements = document.querySelectorAll("div.sprinkle")
 // remember recorrer elementos.
 elements.forEach(element => {
   n = Math.floor(Math.random()*361);
   text= n.toString();
-  console.log(text);
+  //console.log(text);
   element.style.transform="rotate("+text+"deg)"
+
+  color = colors[Math.floor(Math.random()*10)];
+  console.log(color);
+
+  element.style.background="var("+color+")";
 })
 
 
