@@ -13,7 +13,7 @@ colors= ["--Pink", "--Blue", "--white", "--yellow", "--green", "--lila", "--turq
 //console.log(colors[Math.floor(Math.random()*10)]);
 
 const elements = document.querySelectorAll("div.sprinkle")
-// remember recorrer elementos.
+// En lugar de for uso forEach
 elements.forEach(element => {
   n = Math.floor(Math.random()*361);
   text= n.toString();
