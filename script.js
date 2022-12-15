@@ -6,8 +6,7 @@
 let text="";
 let n;
 let color="";
-colors= ["--Pink", "--Blue", "--white", "--yellow", "--green", "--lila", "--turquoise", "--orange","--lila2", "--green2"];
-
+colors= ["--Red", "--Blue", "--White", "--Yellow", "--Green", "--Lila", "--Turquoise", "--Orange","--Lila2", "--Green2", "--Pink", "--White", "--LightBlue"];
 
 
 //console.log(colors[Math.floor(Math.random()*10)]);
@@ -20,7 +19,7 @@ elements.forEach(element => {
   //console.log(text);
   element.style.transform="rotate("+text+"deg)"
 
-  color = colors[Math.floor(Math.random()*10)];
+  color = colors[Math.floor(Math.random()*13)];
   console.log(color);
 
   element.style.background="var("+color+")";
