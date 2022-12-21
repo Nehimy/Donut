@@ -109,13 +109,12 @@ img {
     width: 28vw;
     /* border: 2px solid black; */
     border-radius: 50%;
+    animation: size 5s;
 }
 
 @keyframes my-animation {
     0%   {
-        /* transform: rotate(360deg); */
-        height: 23vw;
-        width: 23vw;
+        transform: rotate(360deg) scale(0.8);
     }
 
     /* 50%{ */
@@ -126,8 +125,14 @@ img {
     /*     height: 26vw; */
     /*     width: 26vw; */
     /* } */
-
 }
+
+/* @keyframes size { */
+/*     0%{ */
+/*         height: 23vw; */
+/*         width: 23vw; */
+/*     } */
+/* } */
 
 .circle{
     display: grid;
