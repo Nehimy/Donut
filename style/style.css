@@ -17,26 +17,26 @@
 
 }
 
-body{
+body {
     background: var(--DarkGray);
     margin: 0px;
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    /*background: #f27fb8;*/
     height: 100vh;
     width: 100vw;
     justify-items: center;
-    grid-template-areas:
-        "header"
-        "content"
-        "footer";
-    /* align-items: center; */
+    align-items: center;
 }
 
+.contain-dunut-homer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    /* height: 70vh; */
+}
 
 .homer {
     display: grid;
@@ -48,49 +48,13 @@ body{
     grid-column: 1;
     grid-row: 2;
     align-self: end;
-}
 
+}
 img {
-    /* min-width: 150px; */
-    /* max-width: 350px; */
-    height: 40vh;
+    /* animation: myfirst 5s 2s infinite alternate; */
+
 }
 
-.container .contain-dunut-homer {
-    display: grid;
-    grid-area: content;
-}
-
-/* .container .container-donut { */
-/*    grid-area: content; */
-/* } */
-
-/* .container .homer { */
-/*    grid-area: content; */
-/* } */
-
-
-.size_spk{
-    height: 25vw;
-    width: 25vw;
-    /* min-width: 160px; */
-    /* min-height: 160px; */
-    min-width: 260px;
-    min-height: 260px;
-}
-
-.size-glazed{
-    height: 13vw;
-    width: 13vw;
-    background: var(--Pink2);
-    height: 22vw;
-    width: 22vw;
-    /* min-width: 150px; */
-    /* min-height: 150px; */
-
-    min-width: 260px;
-    min-height: 260px;
-}
 
 .position-grid{
     grid-row: 1;
@@ -103,34 +67,67 @@ img {
     display: grid;
     /* align-items: center; */
     justify-items: center;
+
+    height: 25vw;
+    width: 25vw;
+    /* min-width: 160px; */
+    /* min-height: 160px; */
+    /* min-width: 260px; */
+    /* min-height: 260px; */
+}
+
+.container-of-container{
+    display: grid;
+    /* grid-column: 1; */
+    /* grid-row: 1; */
+    /*background: yellow;*/
+    justify-items: center;
+    align-items: center;
+    height: 330px;
+    width: 330px;
+    align-self: end;
 }
 
 .container-donut{
     display: grid;
-    grid-column: 1;
-    grid-row: 1;
+    /* grid-column: 1; */
+    /* grid-row: 1; */
     /*background: yellow;*/
     justify-items: center;
     align-items: center;
-
+    height: 28vw;
+    width: 28vw;
+    /* align-self: end; */
+    animation: my-animation linear 5s infinite;
 }
 
 .donut{
     display: grid;
     background:var(--Orange2);
-    clip-path: circle(50% at 50% 50%);
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* clip-path: circle(50% at 50% 50%); */
     height: 28vw;
     width: 28vw;
-    min-width: 343px;
-    min-height: 343px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
 }
 
-/* .glazed{ */
-/*     background: var(--Pink); */
-/*     margin: 15px 0px 0px 0px; */
-/* } */
+@keyframes my-animation {
+    0%   {
+        /* transform: rotate(360deg); */
+        height: 23vw;
+        width: 23vw;
+    }
+
+    /* 50%{ */
+    /*     height: 28vw; */
+    /*     width: 28vw; */
+    /* } */
+    /* 100%{ */
+    /*     height: 26vw; */
+    /*     width: 26vw; */
+    /* } */
+
+}
 
 .circle{
     display: grid;
@@ -140,12 +137,8 @@ img {
     grid-row: 2;
     grid-column: 2;
     border-radius: 100%;
-    /* clip-path: circle(50% at 50% 50%); */
-    min-width: 80px;
-    min-height: 80px;
-
+    /* min-height: 80px; */
 }
-/*Test*/
 
 .glazed{
     display: grid;
@@ -154,14 +147,19 @@ img {
     z-index: 0;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    background: var(--Pink2);
+    height: 22vw;
+    width: 22vw;
+    /* min-width: 260px; */
+    /* min-height: 260px; */
 
 }
 
 .sprinkle{
-    height: 5px;
+    height: 6px;
     width: 16px;
-    min-width: 5px;
-    min-height: 5px;
+    /* min-width: 5px; */
+    /* min-height: 5px; */
     background: var(--turquoise);
     border-radius: 50px;
     z-index: 1;
@@ -378,4 +376,18 @@ img {
 .sprinkles42{
     grid-row: 10;
     grid-column: 6;
+}
+
+
+
+@media (max-width: 360px) {
+  img {
+   width: 200px;
+   height: 200px;
+  }
+
+  .sprinkle {
+      height: 4px;
+      width: 10px;
+  }
 }
