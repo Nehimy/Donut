@@ -24,6 +24,13 @@ body {
     animation: background-animation linear 5s infinite;
 }
 
+h1{
+    color: var(--White);
+    font-family: 'Archivo Black', sans-serif;
+
+    font-family: 'Courgette', cursive;
+}
+
 @keyframes background-animation {
     100%   {
         background: var(--Black);
@@ -64,12 +71,8 @@ body {
     }
 
     100%{
-        transform: scale(0.5);
+        transform: scale(0.9);
     }
-
-    /* 100%{ */
-    /*     transform: scale(0.1); */
-    /* } */
 }
 
 .position-grid{
@@ -125,7 +128,7 @@ body {
     }
 
     100%{
-        transform: rotate(180deg) scale(0.5);
+        transform: rotate(180deg) scale(0.9);
     }
 
     /* 100%{ */
