@@ -1,22 +1,21 @@
 * Homero Simpson y la dona
-Es una aniomación sencilla donde *Homero* y la *dona* de hacercan a la pantalla,  la "dona" tiene una animación extra donde también va girando.
+ Es una animación sencilla donde *Homero* y la *dona* ambos se hacercan a la pantalla,  la "dona" tiene una animación extra donde también va girando.
 * Cosas por arreglar
-** TODO
-
-
--[x] El donut no tine que verce estirado en una pantalla grande.
-- [x] Si la pantalla es pequeña el circulo tiene que ser pequeño
-- [x] Center Donut
+-[x] El donut no tine que verse estirado en una pantalla grande.
+- [x] Si la pantalla es pequeña el circulo tiene que ser pequeño.
+- [x] Center donut
 
 ** Nota:
 *** JavelDev: Justify-items: es horizontal. Align-items: es vertical
 
 * ¿Qué falta?
-- [x] Que los sprinkles obtengan un ángulo cada que cargue la página.
+- [x] Que los *sprinkles* obtengan un ángulo cada que cargué la página.
   - [x] Recorrer los sprinkles.
-- Definir un color para los sprinkles
+- Definir un color para los *sprinkles*.
   - [x] Array de colores.
 - [ ] Cambiar el color de el glaseado con un switch.
 
 * Imagenes
+https://i.imgur.com/IwkIihP.png
+https://i.imgur.com/2YyBjx9.png
 [[https://i.imgur.com/kiCdgZo.png]]
