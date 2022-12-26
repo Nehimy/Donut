@@ -16,10 +16,8 @@
 - [ ] Cambiar el color de el glaseado con un switch.
 
 * Imagenes
-https://i.imgur.com/IwkIihP.png
+[[https://i.imgur.com/IwkIihP.png]]
 
-https://i.imgur.com/2YyBjx9.png
-
-[[https://i.imgur.com/kiCdgZo.png]]
+[[https://i.imgur.com/2YyBjx9.png]]
 
 [[https://i.imgur.com/kiCdgZo.png]]
