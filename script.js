@@ -20,7 +20,7 @@ elements.forEach(element => {
   element.style.transform="rotate("+text+"deg)"
 
   color = colors[Math.floor(Math.random()*13)];
-  console.log(color);
+  //console.log(color);
 
   element.style.background="var("+color+")";
 })
